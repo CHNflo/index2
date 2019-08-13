@@ -1,0 +1,535 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+.dis-6{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-line-clamp: 6;
+	
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    word-break: break-all;
+}
+.dis-4{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+	
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    word-break: break-all;
+}
+.dis-2{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+	
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    word-break: break-all;
+}
+.line1 .back{
+	position: relative;
+	top :-100%;
+	width: 100%;
+	
+	background-color: rgba(0,0,0,0.7);
+   
+    height: 100%;
+    color:#fff;
+   
+   /* padding-top: 0px;*/
+    visibility: hidden;
+    margin-bottom: 0px;
+    
+
+}
+.line1 .back .txt{
+	margin-left: 20px;
+	padding-top: 50%;
+
+}
+.clearfix:after {       
+    content: ".";     /**//*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /**//*加入的这个元素转换为块级元素。*/
+    clear: both;     /**//*清除左右两边浮动。*/
+    visibility: hidden;      /**//*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /**//*行高为0；*/
+    height: 0;     /**//*高度为0；*/
+    font-size:0;    /**//*字体大小为0；*/
+}
+ 
+.clearfix { *zoom:1;} 
+.dis{
+	display:block;
+}
+.welcome{
+	
+	width: 100%;
+	position: fixed;
+	top:0px;
+	z-index: 10;
+	background: #fff;
+
+}
+.welcome .logo{
+	width: 8%;
+	margin-left: 10%;
+	margin-top: 10px;
+	float: left;
+}
+.welcome .logo img{
+	width: 100%;
+
+}
+.welcome .wel-1{
+	float: left;
+	margin-left:20%;
+	margin-top: 20px;
+	
+
+}
+.welcome .wel-1 .wel-1-1{
+	text-align: center;
+	
+	padding:10px 10px;
+	padding-bottom: 20px;
+	float: left;
+	height: 51px;
+}
+.welcome .wel-1 .wel-1-1 .wel-1-2{
+	background: #fff;
+	width: 148px;
+	display:none;
+
+}
+
+.welcome .wel-1 .wel-1-1 .wel-1-2 li{
+
+	padding: 10px 0px;
+	list-style-type:none;
+	text-align: left;
+	padding-left:  40px;
+
+}
+.welcome .wel-1 .wel-1-1 .wel-1-2 li:hover{
+	background: #3b5195;
+	color:#fff;
+	
+
+}
+.welcome .wel-1 .wel-1-1:hover{
+	border-bottom: 2px solid #3b5195;
+}
+.welcome .wel-1 .wel-1-1:hover .wel-1-2{
+	display: block;
+}
+.swiper-container{
+	margin-top: 70px!important;
+
+width: 100%;
+
+height: 750px;
+
+}
+
+.swiper-slide{
+
+    width: 100%;
+
+    height: 700px;
+
+}
+
+.swiper-slide img{
+
+    width: 100%;
+
+    
+
+}
+.ppt1{
+	width: 100%;
+}
+ .title-1{
+	text-align: center;
+	padding:40px 0px;
+
+}
+.ppt1 .line1 {
+	width: 100%;	
+}
+.ppt1 .line2 {
+	width: 100%;	
+}
+.ppt1 .line3 {
+	width: 100%;
+	display: none;	
+}
+
+
+
+.ppt1 .line1 .box1,.ppt1 .line2 .box1,.ppt1 .line3 .box1{
+	width: 25%;
+	
+	text-align: center;
+	float: left;
+	background: #f3f3f3;
+}
+.ppt1 .line1 .box1:nth-child(2n),.ppt1 .line3 .box1:nth-child(2n){
+	background: #fbfbfb;
+	
+	
+}
+.ppt1 .line2 .box1:nth-child(2n+1){
+	background: #fbfbfb;
+	
+	
+}
+.ppt1 .box1 .tit-1{
+	
+	text-align: center;
+	
+	
+	
+	
+}
+.ppt1 .box1 img{
+	width: 80%;
+	margin-top:15%;
+}
+.ppt1 .more{
+	
+	margin-top:80px;
+	margin-bottom:80px;
+	text-align: center;
+	width: 80px;
+	margin-left: calc(50% - 40px);
+	border: 1px solid #3b5195;
+	
+}
+
+.ppt2{
+	width: 100%;
+
+}
+.ppt2 .line1{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.ppt2 .line1 .box-2{
+	width: calc(33% - 20px);
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.ppt2 .line1 .box-2:hover{
+
+}
+.ppt2 .line1 .box-2:hover .back{
+	/*height: 100%;
+	padding-top: 57%;*/
+	visibility: visible;
+	
+	
+}
+.ppt2 .box-2 img{
+	width: 100%;
+	
+	
+}
+.ppt2 .more{
+	
+	margin-top:80px;
+	margin-bottom:80px;
+	text-align: center;
+	width: 80px;
+	margin-left: calc(50% - 40px);
+	border: 1px solid #3b5195;
+	
+}
+.ppt2 .more:hover{
+	background: #3b5195;
+	color: #fff;
+}
+.about {
+	width: 100%;
+	background: #e4e4e4;
+}
+.about .about-1{
+	width: 50%;
+	float: left;
+	height: 100%;
+	background: url(../images/pic-3.png) no-repeat 0px 0px;
+	background-size: 100% 100%;
+}
+.about .about-1 .title-2{
+	writing-mode:vertical-rl;
+	font-size: 25px;
+	margin:80px 20px;
+	color:#fff;
+	float: left;
+}
+.about  .text{
+	position: relative;
+	left: 150px;
+	float: left;
+	margin:10% 5%;
+	width: 75%;
+	padding:80px;
+	padding-right: 150px;
+	color:#fff;
+	border: 3px solid #fff;
+}
+.about .about-2{
+	margin-top: 10%;
+	width: 50%;
+	background: #e4e4e4;
+	float: left;
+	
+}
+.about .about-2 .box-3{
+	padding:50px 20%;
+	
+
+}
+.about .about-2 .box-3:hover{
+	color:#fff;
+	background:#3b5195; 
+	
+
+}
+.about .about-2 .box-4{
+	padding:50px 20%;
+	background:#3b5195;
+	color:#fff;
+
+}
+.news{
+	width: 100%;
+}
+.news .title-3{
+	text-align: center;
+	margin-top:50px ;
+	margin-bottom: 10px;
+}
+.news .tit-2{
+	text-align: center;
+	margin-left: 43%;
+	margin-bottom: 20px;
+
+
+
+}
+.news .tit-2 img{
+	float: left;
+}
+.news .news-2{
+	width: 90%;
+	margin-left: 5%;
+}
+.news .news-2 .box-5{
+	background:#fbfbfb;
+	width: calc(25% - 20px);
+	margin-left: 20px;
+	float: left;
+}
+.news .news-2 .box-5:hover{
+	color: #fff;
+	background: #3b5195;
+}
+.news .news-2 .box-5:hover .more{
+	border: 1px solid #FFF;
+}
+.news .news-2 .box-5:nth-child(0)
+{
+	margin-left: 0px;
+}
+
+.news .news-2 .box-5  .pic{
+	width: 100%;
+	border-bottom: 1px solid #dcdcdc;
+}
+.news .news-2 .box-5 .pic img{
+	width: 100%;
+	padding: 5%;
+	padding-bottom: 10px;
+}
+.news .news-2  p{
+	width: 90%;
+	margin-left: 5%;
+	
+
+}
+.news .box-5 .more{
+	position: relative;
+	
+	margin:20px ;
+
+	
+	width:60px;
+	margin-left: 5%;
+	border: 1px solid #3b5195;
+	padding-bottom: 0px;
+	
+}
+.news .more{
+	
+	margin-top:80px;
+	margin-bottom:80px;
+	text-align: center;
+	width: 80px;
+	margin-left: calc(50% - 40px);
+	border: 1px solid #3b5195;
+	
+}
+
+.brand{
+	width: 90%;
+	margin:0px 5%;
+}
+.brand .title-4{
+	width: 20%;
+	background: #464646;
+	padding: 3% ;
+	float: left;
+	height: 600px;
+}
+.brand .title-4 .tit-4{
+	text-align: center;
+	padding: 88% 20%;
+	border: 3px solid #fff;
+	color:#fff;
+}
+.brand .line-1 {
+	width: 80%;
+	float: left;
+	height: 300px;
+	
+
+}
+.brand .line-2 {
+	width: 80%;
+	float: left;
+	height: 300px;
+}
+.brand  .box-6{
+	width: 25%;
+	color: #3b5195;
+	background: #f8f8f8;
+	float: left;
+	padding: 3%;
+	height: 300px;
+	
+}
+.brand .line-2 .box-6{
+	background:#3b5195;
+	 color: #fff;
+
+}
+.brand .line-1 .text-1{
+	height: 130px;
+	
+	margin-top: 20px; 
+
+}
+.brand .line-2 .text-1{
+	height: 130px;
+	
+	margin-top: 20px; 
+
+}
+.brand .line-2 .box-6 .more{
+	border: 1px solid #fff;
+}
+.brand .line-1 .box-7{
+	background: url(../images/n2.png) no-repeat 0px 0px;
+	width: 25%;
+	height: 300px;
+	float: left;
+	background-size: 100% 100%!important;
+}
+.brand .line-1 .box-7:nth-child(1){
+	background: url(../images/n1.png) no-repeat 0px 0px;
+	
+}
+.brand .line-2 .box-7{
+	background: url(../images/n4.png) no-repeat 0px 0px;
+	width: 25%;
+	height: 300px;
+	float: left;
+	background-size: 100% 100%;
+}
+.brand .line-2 .box-7:nth-child(2){
+	background: url(../images/n3.png) no-repeat 0px 0px;
+	background-size: 100% 100%;
+}
+.brand .box-6 .more{
+	position: relative;
+	
+	margin:40px ;
+
+	margin-bottom: 8px;
+	width:60px;
+	margin-left: 0px;
+	border: 1px solid #3b5195;
+	padding-bottom: 0px;
+	
+}
+.brand .box-6 .more:hover{
+	background: #3b5195;
+	border: 1px solid #fff;
+	color:#fff;
+}
+.bottom{
+	width: 100%;
+	margin-top:40px;
+	background: #3d3e49;
+
+
+}
+.bottom .top{
+	border-bottom: 2px solid #fff;
+	width: 90%;
+	padding: 3% 0px;
+	margin:0px 3%;
+}
+.bottom .top .box-7{
+	margin:0px 15px;
+	float: left;
+	color: #fff;
+	font-size: 10px;
+	width: calc(11% - 30px);
+}
+.bottom .top .box-7 .tit-4{
+	font-weight: bold;
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+.bottom .top .box-7:nth-child(4){
+	margin-top:60px;
+}
+.bottom .top .box-7:nth-child(5){
+	width: calc(16% - 30px);
+}
+.bottom .top .box-7:nth-child(6){
+
+	width: calc(20% - 30px);
+	
+}
+.bottom .top .er{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.bottom .bot{
+	text-align: center;
+	padding: 20px 0px;
+	color: #fff;
+}
